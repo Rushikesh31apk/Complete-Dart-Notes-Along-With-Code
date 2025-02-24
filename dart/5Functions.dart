@@ -31,7 +31,7 @@ void greet3({String name = "Guest", int age = 18}) {
   print("Hello $name, Age: $age");
 }
 
-//5. Arrow Functions (=>)
+//5. Arrow Functions (=>) lambda functions
 int square(int num) => num * num;
 
 //6. Higher-Order Functions

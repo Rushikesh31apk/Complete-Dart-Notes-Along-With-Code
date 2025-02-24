@@ -35,7 +35,7 @@ void main() {
   print(uniqueNumbers); // {1, 2, 3, 4}
 
   // 6. Maps (Map<K, V>) A Map is an unordered collection of key-value pairs.
-  Map<String, int> person = {"name": 1, "age": 2};
+  Map<String, int> person = {"name": 123, "age": 2};
   print(person); // {name: 1, age: 2}
 
   //7. The dynamic Type The dynamic type allows a variable to hold values of different types.
@@ -52,7 +52,7 @@ void main() {
   //const → Value is known at compile-time.
 
   var name1 = "Dart"; // Inferred as String
-  final age1 = 25; // Cannot be changed
+  final age1 = 25; // Cannot be changed at run-time
   const pi = 3.14; // Constant at compile-time
 
   print(name1); // Dart

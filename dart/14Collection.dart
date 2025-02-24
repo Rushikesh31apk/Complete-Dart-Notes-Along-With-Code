@@ -33,7 +33,7 @@ void main() {
   print(numbers); // [1, 2, 4, 5]
 
   // forEach
-  numbers.forEach((element) => print(element)); // Prints each element
+  numbers.forEach((n) => print(n)); // Prints each element
 
   // map
   List<int> doubled = numbers.map((e) => e * 2).toList();
